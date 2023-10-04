@@ -35,7 +35,7 @@ if args.host is not None:
         parser.print_help(sys.stderr)
 
 # flask listening port
-http_port = 5000
+http_port = 10000
 if args.port is not None:
     if args.port >= 0 and args.port <= 65535:
         http_port = args.port

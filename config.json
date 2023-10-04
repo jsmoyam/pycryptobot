@@ -1,0 +1,32 @@
+{
+  "binance": {
+    "api_url": "https://api.binance.com",
+    "config": {
+      "live": 0,
+      "simresultonly": 0,
+      "sim": "fast",
+      "simstartdate": "2023-06-01",
+      "simenddate": "now",
+      "debug": 0,
+      "autorestart": 1,
+      "base_currency": "ADA",
+      "quote_currency": "USDT",
+      "disablebuynearhigh": 1,
+      "enableinsufficientfundslogging": 1,
+      "enabletelegrambotcontrol": 0,
+      "granularity": "15m",
+      "nobuynearhighpcnt": 1,
+      "nosellmaxpcnt": 3,
+      "nosellminpcnt": -9,
+      "sellatresistance": 1,
+      "selllowerpcnt": -12,
+      "telegram": 1,
+      "trailingbuypcnt": 1,
+      "trailingstoploss": -1,
+      "trailingstoplosstrigger": 3,
+      "verbose": 0,
+      "websocket": 0
+    },
+    "api_key_file": "binance.key"
+  }
+}
